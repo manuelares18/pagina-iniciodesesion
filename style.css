@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.inicio-contenedor{
+    background: linear-gradient(#75C2F6, #1D5D9B);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 30px;
+}
+
+.contenedor{
+    background-color: rgb(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 40px;
+    padding: 60px 68px 40px;
+    min-height: 700px;
+    width: 300px;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+}
+
+input{
+    background-color: transparent;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid white;
+    font-size: 16px;   
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    outline: none;
+    height: 50px;
+}
+
+.input{
+    margin-top: 100px;
+}
+
+
+button{
+    border-radius: 30px;
+    background-color:#8ebddb69;
+    height: 30px;
+    width: 70%;
+    border: 1px;
+    display: flex;
+    display: block;
+    margin: auto;
+    color:white;
+
+}
+
+button:hover{
+    background-color: pink;
+    border-radius: 40px;
+    border: 1px solid red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+
+
+
+
+}
+
+
+input[type="checkbox"] {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 20px;
+    margin-right: 1px; /* Ajusta el espaciado entre el checkbox y el texto */
+
+}
+
+label[for="check1"] {
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration-line: none;
+    color: white;
+    margin-left: 20px;
+}
+
+.iman{
+    display: block;
+    margin-top: 0px;
+}
+
+
+.forma{
+    margin-left: 60px;
+    margin-top: 5;
+
+   
+}
+
+.github{
+    position: absolute;
+    top: 482px;
+    left: 37% ;
+}
+
+.buscar{
+    position: absolute;
+    top: 532px;
+    left: 37% ;
+}
+
+.instagram{
+    position: absolute;
+    top: 584px;
+    left: 37% ;
+}
+
+.forma-uno{
+    margin-left: 20px;
+    margin-top: 4px;
+}
+
+.forma-dos{
+    margin-left: 20px;
+    margin-top: 16px;
+}
+
+.forma-tres{
+    margin-left: 20px;
+    margin-top: 11px;
+}
+
+.pie-pagina{
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 13%;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+
+
+
+
